@@ -1,0 +1,14 @@
+name = "MyLeanProjects"
+version = "0.1.0"
+defaultTargets = ["myleanprojects"]
+lean_options = [
+  "warningAsError=true",
+  "linter.unfilledAdmit=true"
+]
+
+[[lean_lib]]
+name = "MyLeanProjects"
+
+[[lean_exe]]
+name = "myleanprojects"
+root = "Main"
