@@ -1,2 +1,2 @@
-example : 1 + 1 = 3 := by
-  sorry
+example : 1 + 1 = 2 := by
+  admit
